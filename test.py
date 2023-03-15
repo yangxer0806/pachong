@@ -8,3 +8,4 @@ with open('mybaidu.html', mode="w") as f:
     f.write(resp.read().decode("utf-8"))
     print('ok')
 
+print("test1212")
