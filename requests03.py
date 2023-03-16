@@ -16,4 +16,4 @@ header = {
 resp = requests.get(url, headers=header, params=param)
 
 print(resp.json())
-
+resp.close()
